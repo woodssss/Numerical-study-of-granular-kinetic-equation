@@ -16,3 +16,14 @@ Then plot figures
 ift_bu.m
 ```
 
+### \gamma=1
+In this case, a finite time blow-up is expected with analytic blow-up time. First, run 
+```
+MR_JKO(4, 121, 1, 10, 1, 5, 0.5, 1e3, 0.0025, 1, 0.05, 0.5, 2e-6,0.02, 0,2,1,1)
+```
+Then plot figures solution at t=0.5
+```
+hom_fig(5, 101, 1, 1, 1, 5, 0.2, 1e3, 0.02, 0.5, 0.8, 0.2, 1e-8,0.01, 1,2,1,1)
+```
+Check 
+
